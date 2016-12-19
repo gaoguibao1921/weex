@@ -79,6 +79,7 @@
     [WXSDKEngine registerHandler:[WXEventModule new] withProtocol:@protocol(WXEventModuleProtocol)];
     
     [WXSDKEngine registerComponent:@"select" withClass:NSClassFromString(@"WXSelectComponent")];
+    [WXSDKEngine registerComponent:@"mapview" withClass:NSClassFromString(@"WXMapViewComponent")];
     [WXSDKEngine registerModule:@"event" withClass:[WXEventModule class]];
     
 #if !(TARGET_IPHONE_SIMULATOR)

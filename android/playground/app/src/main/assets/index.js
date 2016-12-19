@@ -73,6 +73,7 @@
 	        {name: 'component/web-demo', title: 'Web'},
 	        {name: 'component/navigator-demo', title: 'Navigator'},
 	        {name: 'component/tabbar/tabbar-demo', title: 'Tabbar'},
+	        {name: 'component/mapview-demo', title: 'MapView'},
 
 	        // module
 	        {name: 'module/instance-api', title: 'Instance API'},
